@@ -1,0 +1,242 @@
+ *{   
+     margin:0px;
+     padding:0px;
+    box-sizing: border-box;
+ }
+ body{
+     overflow-x: hidden;
+ }
+ .sec1{
+     background-color: rgb(192, 224, 214);
+     height:max-content;
+ }
+ nav{
+     display:flex;
+     justify-content: space-between;
+     padding: 10px 25px;
+     align-items: center;
+     margin-left: 30px;
+     /* margin-top: 10px; */
+ } 
+ .img1{
+     height: 30px;
+     width:150px;
+ }
+ nav>.button1{
+     background-color: white;
+     border-radius: 20px;
+     padding:8px 30px;
+     border:none;
+     font-size: 16px;
+     font-weight: 550;
+ }
+ .div0{
+    display:flex;
+    padding: 5px 25px;
+    margin-top:60px;
+    margin-left: 30px;
+    margin-right: 20px;
+ }
+ .div1{
+     align-self: center;
+     margin-bottom: 200px;
+     width:500px;
+     margin-right: 90px;
+     margin-top: 30px;
+ }
+ .para1{
+     font-size: 30px;
+     font-weight: 700;
+     font-family: 'Poppins', sans-serif;
+     /* width:350px; */
+ }
+ .para2{
+     font-size:17px;
+     font-weight: 400;
+     font-family: 'Poppins',sans-serif;
+     /* width:530px; */
+ }
+ .button2{
+     background-color: rgb(241, 8, 183);
+     border: none;
+     border-radius:20px ;
+     padding: 8px 30px;
+     color: white;
+     margin-top: 20px;
+ }
+ .div2>img{
+     height:400px;
+     width:600px;
+ }
+ .sec2{
+    border: 1px solid rgb(218, 209, 209);
+    border-radius: 10px;
+    box-shadow:0px 0px 5px 5px whitesmoke ;
+    height:500px;
+    margin: 50px 60px;
+    display:flex;
+ }
+ .image>img{ 
+    height:400px;
+    width:500px;
+ }
+ .image>.img2{
+     margin-right: 70px;
+ }
+ .footer{
+     background-color: rgb(20, 20, 92);
+     position: relative;
+     margin-top: 150px;
+ }
+ .head{
+     margin-top: 20px;
+     /* padding: 50px; */
+     padding-left: 20px;
+     height:200px;
+     margin-left: 70px;
+     transform: translateY(50px);
+ }
+.img3{
+    height: 30px;
+    width:160px;  
+    transform: translateY(90px); 
+}
+.body{
+    display:flex;
+    padding:30px 90px;
+    justify-content: space-between;
+}
+.logo{
+    align-self: center;
+    width: 30%;
+}
+.logo>div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.logo>div>p{
+    margin-left: 20px;
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: 'Poppins';
+}
+.divy1{
+    flex-basis: 10%;
+    margin-left: 40px;
+    justify-content: space-evenly;
+    color:white;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: 'Poppins';
+}
+.divy2{
+    margin-left: 40px;
+    justify-content: space-evenly;
+    color:white;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: 'Poppins';
+}
+.divy3{
+    display:flex;
+    justify-content: space-evenly; 
+    margin-left: 40px;
+    width: 100px;
+    height: 50px; 
+}
+.divy>.icon:nth-child(3){
+    margin-left: 30px;
+}
+.sec3{
+   position:absolute;
+   top:-120px;
+   left:330px;
+}
+.div4{
+   background-color: white;
+   border: 1px solid rgb(218, 209, 209);
+   border-radius: 10px;
+   box-shadow:0px 0px 5px 5px whitesmoke ;
+   padding: 20px;
+   margin: 10px 60px;
+   height: 200px; 
+   font-size: 30px;
+   font-weight: 700;
+   font-family: 'Poppins', sans-serif;
+   text-align: center;
+   width:600px;
+}
+@media screen and (max-width:500px) {
+    .sec1{
+        height: max-content;
+    }
+    .div0{
+        /* display: block; */
+        flex-direction: column;
+        margin: 0px;
+    }
+    .div1{
+        margin-top: 30px;
+        margin-right: 0px;
+        width:100%;
+        margin-bottom: 0px;
+    }
+    .para1{
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .para2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .button2{
+        margin-left: 100px;
+    }
+    .div2>img{
+           height: 450px;
+           width:100%;
+           object-fit: contain;
+    }
+    nav{
+        margin-left: 0px;
+        margin-bottom: 30px;
+        padding-top: 20px;
+    }
+    .sec2{
+        flex-direction: column;
+        height: max-content;
+    }
+    .image>img{
+        height:450px;
+        width: 100%;
+        object-fit: contain;
+    }
+    .body{
+        flex-direction: column;
+        justify-content: flex-start;
+        padding:30px;
+    }
+    .logo{
+        align-self: flex-start;
+        padding:30px;
+        width:90%;
+    }
+    .divy3{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .sec3{
+        left:0px;
+    }
+    .div4{
+        margin:0;
+        width:90%;
+        margin-left: 5%;
+    }
+    .div4>.button2{
+        margin-left: 0;
+    }
+}
